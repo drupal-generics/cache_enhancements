@@ -1,0 +1,8 @@
+services:
+
+  cache_enhancements.factory.cachable_data:
+    class: Drupal\cache_enhancements\CacheableDataFactory
+    arguments:
+      - '@cache_factory'
+      - '@cache_contexts_manager'
+      - '@datetime.time'

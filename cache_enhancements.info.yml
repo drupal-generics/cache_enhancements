@@ -1,0 +1,5 @@
+name: "Cache Enhancements"
+type: module
+description: "Builds upon the core Cache API and extends it with further APIs and features."
+package: Other
+core: '8.x'
